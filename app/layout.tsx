@@ -1,20 +1,20 @@
+import Footer from '@/components/footer'
+import Header from '@/components/header'
+import { Sidebar } from '@/components/sidebar'
+import { ThemeProvider } from '@/components/theme-provider'
+import { Toaster } from '@/components/ui/sonner'
+import { cn } from '@/lib/utils'
+import { AppStateProvider } from '@/lib/utils/app-state'
 import type { Metadata, Viewport } from 'next'
 import { Inter as FontSans } from 'next/font/google'
 import './globals.css'
-import { cn } from '@/lib/utils'
-import { ThemeProvider } from '@/components/theme-provider'
-import Header from '@/components/header'
-import Footer from '@/components/footer'
-import { Sidebar } from '@/components/sidebar'
-import { Toaster } from '@/components/ui/sonner'
-import { AppStateProvider } from '@/lib/utils/app-state'
 
 const fontSans = FontSans({
   subsets: ['latin'],
   variable: '--font-sans'
 })
 
-const title = 'Morphic'
+const title = 'Exa x Morphic'
 const description =
   'A fully open-source AI-powered answer engine with a generative UI.'
 
